@@ -1,0 +1,16 @@
+token: token
+port: 8080
+log:
+  level: ERROR
+  dir: target/
+https:
+  enabled: true
+  port: 443
+  keyStore: C:\Users\zexter\keystore.cmt
+  keyStorePassword: password
+  keyStoreType: PKCS12
+  keyAlias: tomcat
+contactPoints:
+  - address: 10.0.75.1:7199
+    username: nano
+    password: cassandra
